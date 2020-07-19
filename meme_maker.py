@@ -18,8 +18,8 @@ def generate_meme(template, top_text, bottom_text):
     # Size of each character
     char_width, char_height = font.getsize('A')
     char_per_line = im_width // char_width
-    char_width -= len(top_text)//5
-    char_height -= len(top_text)//5
+    char_width -= len(top_text)//3
+    char_height -= len(top_text)//3
     top_lines = textwrap.wrap(top_text, char_per_line)
     bottom_lines = textwrap.wrap(bottom_text, char_per_line)
 
