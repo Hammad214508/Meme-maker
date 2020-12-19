@@ -1,6 +1,8 @@
+
 # Meme Maker
 
-This is a basic meme maker I have made.
+This is a basic meme maker I have made, which was featured in an open source project which sends memes to WhatsApp groups based on a command. https://github.com/JaydipMagan/WhatBot
+
 First you have to choose which meme template to use. The **Templates** directory has the meme templates available, you can add as many memes templates as you wish
 
     Meme templates available:
